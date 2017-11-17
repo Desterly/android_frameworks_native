@@ -1523,7 +1523,7 @@ bool TouchButtonAccumulator::isHovering() const {
 }
 
 bool TouchButtonAccumulator::hasStylus() const {
-    return mHaveStylus;
+    return false;
 }
 
 
@@ -3261,7 +3261,7 @@ void TouchInputMapper::dumpRawPointerAxes(String8& dump) {
 }
 
 bool TouchInputMapper::hasExternalStylus() const {
-    return mExternalStylusConnected;
+    return false;
 }
 
 void TouchInputMapper::configureSurface(nsecs_t when, bool* outResetNeeded) {
